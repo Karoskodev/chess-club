@@ -12,6 +12,7 @@ body {
     color: #3a3a3a;
 }
 
+
 /* heading and logo*/
 
 h1, h2 {
@@ -23,8 +24,8 @@ h1, h2 {
 
 #logo {
     float: left;
-    font-size: 250%;
-    margin-left: 20px;
+    font-size: 275%;
+    margin-left: 30px;
 }
 
 /* navigation links*/
@@ -50,7 +51,7 @@ h1, h2 {
 }
 
 #menu a:hover {
-    background-color:#252525;
+    background-color:#3a3a3a;
     color:#fafafa;
 }
 
@@ -103,6 +104,8 @@ to{
 
     width: 250px;
     height: 200px;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    border-radius: 2%;
 
     padding-top: 40px;
     padding-left: 10px;
@@ -113,4 +116,31 @@ to{
     right: 150px;
 
     position: absolute;
+}
+
+/* about us */
+
+#about-us {
+    height: 600px;
+    background-color: #130a05;
+    border-top: 1px solid white;
+}
+
+#about-us h1 {
+    font-size: 190%;
+    padding-top: 75px;
+    text-align: center;
+    color:  #F2F2F2;
+}
+
+#about-us h2 {
+    font-size: 90%;
+    padding-top: 40px;
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+    color:  #F2F2F2;
+    font-family: Roboto, sans-serif;
+    font-weight: 90%;
+    
 }
