@@ -130,14 +130,14 @@ to{
     filter: brightness(120%);*/
 }
 
-#about-us h1 {
-    font-size: 230%;
-    padding-top: 100px;
+#about {
+    font-size: 200%;
+    padding-top: 80px;
     text-align: center;
     color:   #130a05;
 }
 
-#about-us h2 {
+#about-us h3 {
     font-size: 110%;
     padding-top: 70px;
     padding-bottom: 80px;
@@ -224,7 +224,7 @@ table {
   }
   
   table th {
-    background-color: rgba(29, 18, 12, 1.1);
+    background-color: rgba(29, 18, 12, 1);
     font-weight: bold;
     color: #f2f2f2;
     font-family: 'Playfair Display', serif;
@@ -271,7 +271,7 @@ table {
   }
 
   #form-container{
-    padding-top: 10%;
+    padding-top: 7%;
   }
   
   .form {
