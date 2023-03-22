@@ -158,9 +158,9 @@ to{
 }
 
 .join-button {
-    background-color: rgba(29, 18, 12, 0.95);
+    background-color: #5e3d00f2;
     color: #fafafa;
-    border: 2px solid #724a36;
+    border: 2px solid #6d5024;
     border-radius: 8%;
     padding: 5px 5px;
     font-family: Playfair Display, serif;
@@ -171,7 +171,7 @@ to{
 }
 
 .join-button:hover {
-    background-color:#724a36;
+    background-color:#ce985b;
     color:#fafafa;
 }
 
@@ -253,3 +253,66 @@ table {
     padding: 1%;
     color: #130a05;
 }
+
+/* Form */
+
+
+
+
+
+
+
+#f-section {
+    clear: left;
+    background: url("../images/pexels-photo-846070.jpeg");
+    background-position: center;
+    background-size: cover;
+    height: 600px;
+  }
+
+  #form-container{
+    padding-top: 10%;
+  }
+  
+  .form {
+    margin: 0 auto;
+    padding-top: 10%;
+    color: #fff;
+    background-color: rgba(65, 45, 28, 0.9);
+    max-width: 400px;
+    padding: 30px;
+    border: 2px solid #bb916d;   
+    border-radius: 5%;
+    box-shadow: 0 0 30px rgba(255, 255, 255, 0.9);
+    text-align: center;
+  }
+  
+  .form > h2 {
+    color: #fafafa;
+    margin-bottom: 20px;
+    font-size: 95%;
+    
+  }
+
+  .text-input {
+    margin: 5px;
+    padding: 5px;
+}
+
+  .f-button {
+    margin: 20px auto;
+    border-radius: 5px;
+    padding: 15px 30px;
+    text-align: center;
+    font-size: 120%;
+    background-color: rgb(236, 170, 83);
+    color: #181313;
+    display: block;
+  }
+  
+  .f-button:hover {
+    background-color: #fada9a;
+    color: #181313;
+    cursor: pointer;
+    
+  }

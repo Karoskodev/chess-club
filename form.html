@@ -18,64 +18,48 @@
         <nav>
             <ul id="menu">
                 <li>
-                    <a href="#table">Schedule</a>
+                    <a href="index.html/#table">Schedule</a>
                 </li>
                 <li>
-                    <a href="form.html">Sign Up</a>
+                    <a href="form.html" class="active">Sign Up</a>
                 </li>
                 <li>
-                    <a href="index.html" class="active">Home</a>
+                    <a href="index.html" >Home</a>
                 </li>
             </ul>
         </nav>
     </header>
-    <section id="main-outer">
-        <div id="main-image"></div>
-        <div id="cover-text">
-            <h2>Checkmate</h2>
-            <h3>your limits with us</h3>
-        </div>
-    </section>
-    <section id="about-us">
-        <h1>About Us</h1>
-        <h2>Welcome to our chess club! We are a group of passionate chess players who come together to play, 
-            learn, and improve our skills.
-            <br> 
-            <br>
-            We welcome players of all ages and skill levels,
-            <br>
-            <br>
-            Whether you want to play casual games, tournaments,
-            or just chat about chess over a cup of coffee, we've got you covered.
-            <br>
+    <section id="f-section">
+        <div id="form-container">
+        <form action="https://formdump.codeinstitute.net/" form method="POST" class="form">
 
+
+
+
+            <h2>Subscribe to our newsletter!</h2>
+            <label for="fname">First Name</label>
             <br>
-            We invite you to join us and become a part of our community.
+            <input type="text" id="fname" name="first_name" class="text-input" required>
             <br>
-            <i class="fa-regular fa-chess-king king"></i>
+            <label for="lname">Last Name</label>
             <br>
+            <input id="lname" type="text" name="last_name" class="text-input" required>
             <br>
+            <label for="email">Email Address</label>
             <br>
-            <a href="form.html" class="join-button">Join In!</a>
-        </h2>
-    </section>      
-        <div id="table">
-            <h2>Schedule</h2>
-            <table>
-                <tr>
-                    <th>Day</th> <th>Time</th> <th>Type</th>
-                </tr>
-                <tr>
-                    <td>Monday</td> <td>18:00 - 20:00</td> <td>casual games</td>
-                </tr>
-                <tr>
-                    <td>Wednesday</td> <td>18:00 - 20:00</td> <td>casual games</td>
-                </tr>
-                <tr>
-                    <td>Friday</td> <td>17:00 - 21:00</td> <td>tournaments</td>
-                </tr>
-            </table>
+            <input id="email" type="email" name="email_address" class="text-input" required>
+            <br>
+            
+            <input type="submit" value="Subscribe!" class="f-button">
+
+
+
+
+
+        </form>
         </div>
+
+    </section>
     <footer>
         <ul class="social-networks">
             <li>
