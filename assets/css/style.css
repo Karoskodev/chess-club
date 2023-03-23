@@ -138,7 +138,7 @@ to{
 }
 
 #about-us h3 {
-    font-size: 110%;
+    font-size: 125%;
     padding-top: 70px;
     padding-bottom: 80px;
     width: 70%;
@@ -188,6 +188,7 @@ to{
     background-color:rgba(36, 20, 11, 0.8);
     padding-top: 40px;
     border-top: 3px solid #130a05;
+    border-bottom: 3px solid #130a05;
 }
 
 #table h2 {
@@ -315,4 +316,46 @@ table {
     color: #181313;
     cursor: pointer;
     
+  }
+
+
+
+  @media screen and (max-width: 1200px) {
+    #about-us {
+        height: 700px;
+    }
+
+    #menu {
+        clear: left;
+        float: left;
+        margin-left: 30px;
+        margin-bottom: 20px;
+        line-height: 30px;
+    }
+  }
+
+  @media screen and (max-width: 800px) {
+    #logo {
+        width: 90%;
+        font-size: 30px;
+        left: 10px;
+    }
+
+    #cover-text {
+        left: 0;
+    }
+  }
+
+  @media screen and (max-width: 635px) {
+
+    #about-us {
+        height: 800px;
+    }
+
+    #logo {
+        width: 90%;
+        font-size: 17px;
+        left: 5px;
+    }
+
   }
