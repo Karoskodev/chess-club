@@ -325,12 +325,13 @@ footer {
     width: 100%;
 }
 
-  @media screen and (max-width: 1500px) {
+@media screen and (max-width: 1500px) {
     #about-us {
         background-image: none;
     }  
 
-  }
+}
+
 @media screen and (max-width: 1200px) {
     #about-us {
         height: 700px;
@@ -342,6 +343,12 @@ footer {
         margin-left: 30px;
         margin-bottom: 20px;
         line-height: 30px;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    #gallery {
+        column-count: 1;
     }
 }
 
@@ -380,6 +387,10 @@ footer {
 
     #form-container {
         padding-top: 15%;
+    }
+
+    #gallery {
+        column-count: 1;
     }
 
 }
