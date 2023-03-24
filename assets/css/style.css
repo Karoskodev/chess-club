@@ -381,4 +381,9 @@ footer {
     #menu {
         font-size: 10px;
     }
+
+    table {
+        width: 50%;
+        margin-left: 6%;
+    }
 }
