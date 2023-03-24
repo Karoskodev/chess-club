@@ -12,9 +12,6 @@ body {
     color: #3a3a3a;
 }
 
-
-/* heading and logo*/
-
 h1, h2 {
     font-family: 'Playfair Display', serif;
     text-transform: uppercase;
@@ -27,8 +24,6 @@ h1, h2 {
     font-size: 275%;
     margin-left: 30px;
 }
-
-/* navigation links*/
 
 #menu {
     font-size: 140%;
@@ -60,8 +55,6 @@ h1, h2 {
     border-bottom: 1px solid #3a3a3a;
 }
 
-/* main image*/
-
 #main-outer {
     height: 600px;
     width: 100%;
@@ -79,14 +72,10 @@ h1, h2 {
     background: url('../images/pexels-photo-6202958.jpeg') no-repeat center center;
     background-size: cover;
 
-/*animates zoom efect on loading page*/
-animation-name: main-zoom;
-animation-duration: 5s;
-animation-fill-mode: forwards;
+ animation-name: main-zoom;
+ animation-duration: 5s;
+ animation-fill-mode: forwards;
 }
-
-
-/* creates the level of zoom for main image*/
 
 @keyframes main-zoom {
 from{
@@ -102,7 +91,6 @@ to{
     font-family: 'Playfair Display', serif;
     text-transform: uppercase;
     letter-spacing: 4px;
-
     width: 250px;
     height: 200px;
     border: 1px solid rgba(255, 255, 255, 0.5);
@@ -115,11 +103,8 @@ to{
 
     bottom: 30px;
     right: 150px;
-
     position: absolute;
 }
-
-/* about us */
 
 #about-us {
     height: 650px;
@@ -128,7 +113,7 @@ to{
     
     background: url('../images/pexels-photo-112854.jpeg') no-repeat top center;
     background-size: cover;
-    filter: brightness(150%);
+    filter: brightness(145%);
 }
 
 #about {
@@ -176,10 +161,6 @@ to{
     color:#fafafa;
 }
 
-
-
-/* tabulka */
-
 #scheldue {
     background-color:rgba(36, 20, 11, 0.8) ;
 }
@@ -213,7 +194,7 @@ table {
     margin-left: 30%;  
     padding-top: 2px;
     box-shadow: 0 0 30px rgba(19, 10, 5, 0.925);
-  }
+}
   
 table th, table td {
     padding: 10px;
@@ -222,7 +203,7 @@ table th, table td {
     font-family: Roboto, sans-serif;
     font-size: 110%;
     font-weight: 800;
-  }
+}
   
 table th {
     background-color: rgba(29, 18, 12, 1);
@@ -232,7 +213,7 @@ table th {
     letter-spacing: 2px;
     font-size: 110%;
     text-align: center;
-  }
+}
 
 footer {
     height: 150px;
@@ -255,19 +236,17 @@ footer {
     color: #130a05;
 }
 
-/* Form */
-
 #f-section {
     clear: left;
     background: url("../images/pexels-photo-846070.jpeg");
     background-position: center;
     background-size: cover;
     height: 600px;
-  }
+}
 
 #form-container{
     padding-top: 7%;
-  }
+}
   
 .form {
     margin: 0 auto;
@@ -280,7 +259,7 @@ footer {
     border-radius: 5%;
     box-shadow: 0 0 30px rgba(255, 255, 255, 0.9);
     text-align: center;
-  }
+}
   
 .form > h2 {
     color: #fafafa;
@@ -303,18 +282,16 @@ footer {
     background-color: rgb(236, 170, 83);
     color: #181313;
     display: block;
-  }
+}
   
 .f-button:hover {
     background-color: #fada9a;
     color: #181313;
     cursor: pointer;
     
-  }
+}
 
-  /*gallery*/
-
-  #gallery {
+#gallery {
     clear: both;
     line height: 0;
     column-count: 3;
