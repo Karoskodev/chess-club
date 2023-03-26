@@ -85,3 +85,54 @@ The goal of this website is to provide information about our chess club to both 
 
  ### GoogleFonts
 > Used for fonts in this project
+
+## Testing
+Extensive testing was conducted to confirm that all pages were functioning correctly.
+To identify any potential issues, the site and documentation were reviewed by friends and family members.
+Furthermore, the W3C Markup Validator and W3C CSS Validator Services were employed to scrutinize each page of the project for any errors.
+ Also Lighthouse testing to evaluate performance for both the desktop and mobile versions.
+ 
+ ### Google Lighthouse Testing
+  #### index.html
+   ![index.html](assets/images/testing/d694b156a5cac3f68d956e772b54ed0a.png)
+  #### gallery.html
+   ![gallery.html](assets/images/testing/0ce915f32cb4d6d69f718f3ad589bf80.png)
+  #### form.html
+   ![form.html](assets/images/testing/1ed07e99ffdf4a0b325493012c387ccf.png)
+
+ ### HTML Validation
+  #### index.html
+   ![index.html](assets/images/testing/b07bb8d2bc260904fef44c353f6737f9.png)
+
+   #### gallery.html
+   ![gallery.html](assets/images/testing/629dfd7ccf49dfede85793d5b893b57e.png)
+
+   #### form.html
+   ![form.html](assets/images/testing/07d5acb24dcbec5c50a944e0188bc381.png)
+
+ ### CSS Validation
+   #### style.css
+   ![style.css](assets/images/testing/4fe6841b62ac4d7e6ad2ef12cbe7299f.png)
+
+## Deployment
+
+  To deploy the project, I followed these steps, beginning from the main project repository [here](https://github.com/Karoskodev/chess-club)
+
+1. Navigated to the Settings option in the repository's navigation menu.
+2. Selected the Pages option on the sidebar.
+3. In the first dropdown menu labeled Source, I chose the main branch from the available options.
+4. Left the next dropdown labeled /root as the default option.
+5. Selected the Save button.
+6. Received a notification from GitHub indicating that the project was being deployed.
+
+## Credits
+ 1. Code Institute for providing the LMS videos, tutorials, support
+ 2. Love Running Project for inspiration and guidance
+ 3. W3schools.com for assistance with the CSS code
+ 5. Font Awesome for the icons in the footer
+ 6. Google Fonts for the font and font style
+ 7. Pexels for the images
+ 8. Canva Color Wheel for selecting the colors
+
+## Acknowledgements
+I would like to give special thanks to Alan Bushell, for his valuable guidance and support throughout the development of this project.
