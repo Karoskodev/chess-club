@@ -9,7 +9,7 @@
 
 1. [ UX ](#ux)
 2. [ Features ](#features)  
-3. [ Technology used ](#tech)
+3. [ Technology used ](#technology)
 4. [ Testing ](#testing)
 5. [ Deployment](#deployment)
 6. [ Credits](#credits)
@@ -73,7 +73,7 @@ The goal of this website is to provide information about our chess club to both 
    This section contains a form with two inputs for text and one for email  and also contains a button to submit the form.
    ![Sign Up Form](assets/images/Features/b49ba84fe920d67176b5707c69460a70.jpg)
 
-## Technology Used
+## Technology
  ### Html
 > Used to structure my webpages
 
